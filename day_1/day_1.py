@@ -1,3 +1,10 @@
+'''
+Advent of Code 2024 Day 1: Historian Hysteria
+
+The description of the puzzle can be found here:
+https://adventofcode.com/2024/day/1
+'''
+
 from typing import *
 
 def get_lists_distance(lst_a: List, lst_b: List) -> int:
