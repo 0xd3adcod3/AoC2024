@@ -91,6 +91,5 @@ def parse_input_file(path: str) -> List[List[str]]:
 
 if __name__ == "__main__":
     input_mat = parse_input_file("input.txt")
-    input_mat2 = parse_input_file("test_input2.txt")
     print("All XMAS occurences in the letter matrix: ", search_all_word_occurences_in_matrix(input_mat, "XMAS"))
     print("All X-MAS occurences in the letter matrix: ", search_x_mass_occurences(input_mat))
